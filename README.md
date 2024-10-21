@@ -13,14 +13,17 @@ This project is a Real-Time Data Processing System for monitoring weather condit
           npm install
       Create a .env file in the backend folder and add your configuration:
           PORT=5000
-          MONGO_URI=your_mongodb_connection_string
-          OPENWEATHERMAP_API_KEY=your_api_key
+          (MONGO_URI=your_mongodb_connection_string
+          OPENWEATHERMAP_API_KEY=your_api_key)
+          or
+          I have added these both in my file.
       Start the backend server:
           nodemon server.js
   ## 3. Setting Up the Frontend
       Navigate to the frontend folder and install dependencies:
-          cd ../frontend
+          cd ../ui
           npm install
       Start the frontend development server:
           npm run dev
 
+## 4. Navigate to http://localhost:3000

@@ -25,4 +25,4 @@ This project is a Real-Time Data Processing System for monitoring weather condit
           npm install
       Start the frontend development server:
           npm run dev
-      Go to  http://localhost:3000 from your device.
+  Access the Application: Open your browser and navigate to http://localhost:3000
